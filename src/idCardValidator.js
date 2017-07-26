@@ -1,5 +1,5 @@
 /*
- * ID number verification v0.0.1
+ * ID number verification v1.0.9
  * 中国身份证号验证(内地)
  * 作者 xxf1991-
  * ps:加微信请备注原因。 微信号 xxf1991-
