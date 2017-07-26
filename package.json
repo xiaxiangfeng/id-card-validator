@@ -1,13 +1,20 @@
 {
   "name": "id-card-validator",
-  "version": "1.0.6",
+  "url" : "https://github.com/xiaxiangfeng/id-card-validator/issues",
+  "email" : "876029169@qq.com",
+  "version": "1.0.8",
   "description": "中国身份证号验证(内地)",
   "author": "xiaxiangfeng",
   "private": false,
   "main": "lib/idCardValidator.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xiaxiangfeng/id-card-validator"
+  },
   "scripts": {
     "build": "node build/build.js",
     "unit": "cross-env BABEL_ENV=test karma start test/unit/karma.conf.js --single-run",
+    "test": "cross-env BABEL_ENV=test karma start test/unit/karma.conf.js",
     "lint": "eslint --ext .js src test/unit/specs test/e2e/specs",
     "prepublish": "babel src -d lib"
   },

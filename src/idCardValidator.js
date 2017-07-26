@@ -18,7 +18,7 @@ class IdValidate {
 
   validate (idCard, areaNumber) {
     this.id = idCard
-    this.areaNumber = areaNumber
+    if (areaNumber) this.areaNumber = areaNumber
     this.isValidateArea = this.isValidateArea || !!areaNumber
     if (this.basicFormat(idCard)) {
       let res = true
