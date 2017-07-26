@@ -2,7 +2,7 @@
   "name": "id-card-validator",
   "url" : "https://github.com/xiaxiangfeng/id-card-validator/issues",
   "email" : "876029169@qq.com",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "中国身份证号验证(内地)",
   "author": "xiaxiangfeng",
   "private": false,
